@@ -1,135 +1,129 @@
-body{
-    font-family: Arial sans-serif;
-    background-color: #f0f2f5 ;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-
-
+body {
+  font-family: Arial sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.container{
-    text-align: center;
+.container {
+  text-align: center;
 }
-.header{
-    margin-bottom: 20px;
+.header {
+  margin-bottom: 20px;
 }
-.header h1{
-    font-size: 75px;
-    color: #1877f2;
-    font-weight: bold;
-    margin: 0;
+.header h1 {
+  font-size: 75px;
+  color: #1877f2;
+  font-weight: bold;
+  margin: 0;
 }
-.form-container{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px   rgba(0,0,0,0.1) ;
-    width: 450px;
-    text-align: left;
-
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  text-align: left;
 }
-.form-container h2{
-    color: #333;
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-align: center;
+.form-container h2 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
-.form-container p{
-    color: #666;
-    font-size: 18px;
-    margin-top: 0;
-    text-align: center;
-
-
+.form-container p {
+  color: #666;
+  font-size: 12px;
+  margin-top: 0;
+  text-align: start;
 }
-form{
-    display: flex;
-    flex-direction: column;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-input[type="text"], input[type="email"],
-input[type="password"]
-{
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
 }
-label{
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #666;
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #666;
 }
-#day{
-    width: 150px;
-    height: 40px;
-    border-radius: 4px;
+#day {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
 }
-#month{
-    border-radius: 4px;
-    height: 40px;
-    width: 150px;
+#month {
+  border-radius: 4px;
+  height: 40px;
+  width: 150px;
 }
-#year{
-    border-radius: 4px;
-    height: 40px;
-    width: 150px;
+#year {
+  border-radius: 4px;
+  height: 40px;
+  width: 150px;
 }
-.gender{
-    
-    justify-content: space-between;
-    display: flex;
+.gender {
+  justify-content: space-between;
+  display: flex;
 }
-.gender-option{
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 4px;
-    align-items: center;
-    width: 100px;
-    justify-content: center;
-
-}
-
-
-.birthdate, .gender{
-    display: flex;
-    justify-content: space-between;
-    
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 4px;
-    
+.gender-option {
+  display: flex;
+  border: 1px solid #ddd;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 4px;
+  align-items: center;
+  width: 100px;
 }
 
+label {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
-.birthdate select, .gender select input[type="radio"]
-{
-    margin-right:10px ;
+.birthdate,
+.gender {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
 }
-button[type="submit"]
-{
-    background-color: #42b72a;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    width: 200px;
-    margin-left: 120px;
+
+.birthdate select,
+.gender select input[type="radio"] {
+  margin-right: 10px;
 }
-button[type="submit"]:hover
-{
-    background-color: #36a420;
+button[type="submit"] {
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+  margin-left: 120px;
 }
-a{
-    color: #1877f2;
-    text-decoration: none;
-    font-size: 16px;
+button[type="submit"]:hover {
+  background-color: #36a420;
+}
+a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 16px;
 }
