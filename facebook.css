@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial sans-serif;
+    box-sizing: border-box;
+    
+
+    
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(243, 244, 245);
+}
+.main-content{
+    height: 700px;
+    max-width: 420px;
+    background: white;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 100px auto ;
+    
+
+}
+.main-content h2{
+    text-align: center;
+}
+.main-content p{
+    text-align:center 
+}
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .name1{
+    border: 1px solid #dddfe2;
+}
+

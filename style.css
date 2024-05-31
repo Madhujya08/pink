@@ -1,0 +1,70 @@
+@font-face {
+    
+    src: url(Roboto-LightItalic.ttf);
+    font-family: Roboto-Light;
+}
+
+body{
+  
+    background-color: hsl(0, 4%, 28%);
+    display: flow-root;
+} 
+h1{
+    border: 3px solid hsl(110, 59%, 43%);
+    border-radius: 15px;  Roboto-Light;
+    text-shadow:3px 3px 5px hsl(130, 29%, 35%), -3px -3px 5px yellow;
+
+}
+.box{
+   border:5px solid  ;
+   font-size: 5em;
+   width: 250px;
+   height: 250px;
+   color:red ;
+}
+#box1{
+    background-color: black;
+    margin-bottom: 100px;
+    margin:auto;
+}
+#box2{
+    background-color: black;
+    margin:auto;
+}
+
+#drake{
+    float:right;
+    margin-right: 10px;
+}
+
+#kendrick{
+    float:left;
+    margin-right: 10px;
+
+}
+
+
+
+#p1{
+    font-family: 'Courier New', Courier, monospace;color: brown;
+    font-size:25px;font-weight:bold;font-style: italic ;
+}
+#p2{
+    color:rgb(13, 255, 77)
+}  
+#p3{
+    color: #c211b0;
+}
+div{
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   display: inline;
+
+    }
+span{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+
+}
