@@ -10,6 +10,8 @@ body {
 }
 .container {
   text-align: center;
+  
+  
 }
 .header {
   margin-bottom: 20px;
@@ -26,8 +28,39 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 450px;
-  text-align: left;
+  
+  
+  
+  
+  
+
 }
+
+
+
+.names{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.fname{
+    flex-grow: 1;
+    
+    
+}
+
+.fname input[type="text"]
+{
+    width: 100%;
+    
+}
+    
+    
+    
+   
+
+
 .form-container h2 {
   color: #333;
   font-size: 30px;
@@ -44,6 +77,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
 
 input[type="text"],
 input[type="email"],
